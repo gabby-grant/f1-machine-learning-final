@@ -55,24 +55,7 @@ Key Features:
 - Create derived features (position changes, grid advantages)
 - Train/test split (80/20)
 
-## 🔧 Setup and Installation
-
-### Prerequisites
-```r
-# Required R packages
-install.packages(c(
-  "tidyverse",    # Data manipulation and visualization
-  "caret",        # Machine learning framework
-  "ranger",       # Fast random forest implementation
-  "rpart",        # Decision trees
-  "glmnet",       # Regularized regression
-  "corrplot",     # Correlation plots
-  "VIM"           # Missing data visualization
-))
-```
-
-
-## 📝 Code Structure
+## Code Structure
 
 1. Data Loading and Exploration
 2. Data Cleaning
@@ -81,7 +64,7 @@ install.packages(c(
 5. Model Evaluation
 6. Feature Importance
 
-## 📈 Expected Results
+## Expected Results
 
 Based on F1 domain knowledge, we expect:
 
@@ -90,7 +73,7 @@ Based on F1 domain knowledge, we expect:
 - **Constructor/team** to significantly impact results
 - **Circuit characteristics** to influence overtaking opportunities
 
-## 🎯 Model Performance Metrics
+## Model Performance Metrics
 
 - **Accuracy**: Overall correct predictions
 - **Precision**: Of predicted podiums, how many were actual podiums
@@ -98,14 +81,13 @@ Based on F1 domain knowledge, we expect:
 - **F1-Score**: Harmonic mean of precision and recall
 - **ROC-AUC**: Area under the receiver operating characteristic curve
 
-## 🔍 Insights and Findings
-
+##  Insights and Findings
 
 1. **Grid Position Impact**: Starting position remains the strongest predictor
 2. **Experience Matters**: Career statistics provide valuable predictive power
 3. **Model Comparison**: [Results will show which model performs best]
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - **Feature Engineering**: 
   - Weather conditions
@@ -121,19 +103,6 @@ Based on F1 domain knowledge, we expect:
 - **Cross-Validation**:
   - Temporal split validation
   - Leave-one-season-out validation
-
-## 📚 Learning Objectives
-
-This project demonstrates:
-- Data preprocessing and cleaning
-- Exploratory data analysis
-- Multiple machine learning algorithms
-- Model evaluation and comparison
-- Feature importance analysis
-- Interpretation of results in domain context
-
-
-## 📄 License
 
 This project is for educational purposes. F1 data is used under fair use for academic analysis.
 
