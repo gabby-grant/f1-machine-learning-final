@@ -1,5 +1,5 @@
 
-# F1 Podium Prediction Stat Final Project 🏎️
+# F1 Podium Prediction Class Final Project 🏎️
 ML Applications for Podium (Binary Classification Problem)
 A machine learning project that predicts Formula 1 podium finishes using historical race data and driver performance metrics.
 
